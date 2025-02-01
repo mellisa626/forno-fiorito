@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<title>Forno Fiorito</title>
+		<style>
+			ul {
+				line-height: 1.3;
+			}
+				
+			.history__img {
+				max-width: 80%; 
+				display: block;
+				margin: 20px auto; 
+			}
+			
+			.history__description {
+				margin-bottom: 20px; 
+			}
+			
+			.team__grid {
+				display: flex;
+				justify-content: center;
+				gap: 2rem;
+				flex-wrap: wrap;
+			}
+
+			.team__card {
+				background: #fff;
+				padding: 1.5rem;
+				text-align: center;
+				width: 200px;
+				border-radius: 12px;
+				box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+				display: flex;
+				flex-direction: column;
+				align-items: center; 
+			}
+
+			.team__img {
+				width: 100%;
+				height: auto;
+				max-height: 150px; 
+				object-fit: cover; 
+				margin-bottom: 1rem;
+			}
+			
+			.team__card:hover {
+				transform: scale(1.1);
+			}
+			
+			.team__container {
+				margin-top: -80px;
+			}
+
+		</style>
+    </head>
+    <body>
+		<header class="header" id="header">
+			<nav class="nav container">
+				<a href="home.html" class="nav__logo">
+					<img src="assets/img/logo-pizza.png" alt="image">
+					Forno Fiorito
+				</a>
+				
+				<div class="nav__menu" id="nav-menu">
+					<ul class="nav__list">
+						<li>
+							<a href="home.html" class="nav__link active-link">HOME</a>
+						</li>
+						
+						<li>
+							<a href="about.html" class="nav__link">ABOUT US</a>
+						</li>
+						
+						<li>
+							<a href="popular.html" class="nav__link">POPULAR</a>
+						</li>
+						
+						<li>
+							<a href="products.html" class="nav__link">PRODUCTS</a>
+						</li>
+						
+						<li>
+							<a href="locations.html" class="nav__link">LOCATION</a>
+						</li>
+						
+						<li>
+							<a href="contact.html" class="nav__link">CONTACT</a>
+						</li>
+					</ul>
+					
+					<!-- Close button -->
+					<div class="nav__close" id="nav-close">
+						<i class="ri-close-large-line"></i>
+					</div>
+                </div>
+				
+				<!-- Toggle button -->
+				<div class="nav__toggle" id="nav-toggle">
+					<i class="ri-apps-2-fill"></i>
+				</div>	
+			</nav>	
+		</header>
+		<main class="main">
+        <section class="about section">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h1 class="section__title">Our Story</h1>
+                    <p class="about__description">
+                        Forno Fiorito started operations in November 2023, following the official opening of The Exchange TRX.
+                        The idea to open Forno Fiorito came from our love for authentic pizza cooked in a traditional oven.
+                        We wanted to create a place where customers can enjoy pizzas made with fresh, high-quality ingredients,
+                        paired with perfect flavors.
+                    </p>
+                </div>
+                <img src="assets/img/logo-pizza2.png" alt="image">
+            </div>
+        </section>
+        
+        <section class="history section">
+            <div class="history__container container grid">
+                <div class="history__data">
+                    <h2 class="section__title">Origin of Forno Fiorito</h2>
+                    <h3 class="history__description">
+                        "Forno" means oven, the heart of pizza-making, and "Fiorito" means blooming in Italian,
+                        symbolizing how our flavors blossom into something special. Each pizza at Forno Fiorito is crafted
+                        with passion, fresh ingredients, and unique combinations that create a delightful taste experience.</h3>
+					<p>
+					<ul  style="color: #2e1114">
+						<li type="square">
+						Forno Fiorito started operations in November 2023, following the official opening of The Exchange TRX.
+						</li><br>
+						<li type="square">
+						The idea to open "Forno Fiorito": Started from our love for authentic pizza cooked in a traditional oven. We wanted to create a place where customers can enjoy pizzas made with fresh, high-quality ingredients, paired with perfect flavors.
+						</li><br>
+						<li type="square">
+						Oven as the Main Focus: This name highlights the magic of the traditional oven, which not only cooks but also adds warmth and flavor to every pizza. Each pizza comes out with perfect texture and taste, representing the true tradition of pizza-making.
+						</li><br>
+						<li type="square" >
+						Creativity in Pizza: This name also reflects creativity in crafting pizzas with unique toppings that are not only visually appealing but also bring rich and fresh flavors. Each pizza is made with great attention, resulting in a blossoming and delicious combination of tastes, making it more than just a dish – it’s a refreshing visual and flavorful experience.
+						</li><br>
+						<li type="square" >
+						Refreshing beverages: The beverages at Forno Fiorito are all made fresh and carefully selected to complement our pizza dishes. Each drink is crafted to pair perfectly with the flavors of our pizzas, providing a balanced dining experience without overpowering the unique taste of the pizza.
+						</li>
+					</ul>
+                    </p>
+                </div>
+                <img src="assets/img/traditionaloven.png" alt="Traditional Oven" class="history__img">
+            </div>
+        </section>
+        
+        <section class="team section">
+			<div class="team__container container">
+				<h2 class="section__title">Meet Our Team</h2>
+				<div class="team__grid">
+					<div class="team__card">
+						<img src="assets/img/gm.png" alt="General Manager" class="team__img">
+						<h3 class="team__title">General Manager</h3>
+						<p class="team__description">Oversees strategic decisions and ensures business objectives are met.</p>
+					</div>
+					<div class="team__card">
+						<img src="assets/img/am.png" alt="Administration Manager" class="team__img">
+						<h3 class="team__title">Administration Manager</h3>
+						<p class="team__description">Handles daily administrative tasks, office operations, and HR.</p>
+					</div>
+					<div class="team__card">
+						<img src="assets/img/mm.png" alt="Marketing Manager" class="team__img">
+						<h3 class="team__title">Marketing Manager</h3>
+						<p class="team__description">Develops and executes marketing strategies to boost brand awareness and sales.</p>
+					</div>
+					<div class="team__card">
+						<img src="assets/img/om.png" alt="Operation Manager" class="team__img">
+						<h3 class="team__title">Operation Manager</h3>
+						<p class="team__description">Ensures smooth operations, including inventory and logistics.</p>
+					</div>
+					<div class="team__card">
+						<img src="assets/img/fm.png" alt="Financial Manager" class="team__img">
+						<h3 class="team__title">Financial Manager</h3>
+						<p class="team__description">Manages finances, budgets, and financial reports.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		</main>
+		<section class="footer__bottom">
+			<div class="footerContainer">
+				<div class="socialIcons">
+					<a href="https://www.instagram.com/fornofiorito?igsh=djR1eGhlN2txdHZp" target="_blank" class="footer__social-link">
+						<i class="ri-instagram-fill"></i>
+					</a>
+					<a href="tiktok.com/@fornofiorito._" target="_blank" class="footer__social-link">
+						<i class="ri-tiktok-fill"></i>
+					</a>
+					<a href="https://wa.link/pgeofi" target="_blank" class="footer__social-link">
+						<i class="ri-whatsapp-fill"></i>
+					</a>
+					<a href="mailto:fornofiorito@gmail.com" target="_blank" class="contact__social-link">
+						<i class="ri-mail-fill"></i>
+					</a>
+					<a href="https://t.me/M31Y4" target="_blank" class="contact__social-link">
+						<i class="ri-telegram-2-fill"></i>
+					</a>
+				</div>
+				<div class="footerNav">
+					<ul><li><a href="home.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="popular.html">Popular</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li><a href="locations.html">Location</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footerBottom">
+				<p>&#169; All Rights Reserved By <span class="designer">Forno Fiorito</span></p>
+			</div>
+		</footer>
+			
+		<!--========== SCROLL UP ==========-->
+		<a href="#" class="scrollup" id="scroll-up">
+			<i class="ri-arrow-up-box-fill"></i>
+		</a>
+
+		<!--=============== SCROLLREVEAL ===============-->
+		<script src="assets/js/scrollreveal.min.js"></script>
+      
+		<!--=============== SWIPER JS ===============-->
+		<script src="assets/js/swiper-bundle.min.js"></script>
+
+		<!--=============== MAIN JS ===============-->
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
